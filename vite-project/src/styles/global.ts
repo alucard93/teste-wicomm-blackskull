@@ -16,6 +16,13 @@ export const GlobalStyle = createGlobalStyle`
       font-family: 'Barlow';
     }
 
+    button {
+      cursor: pointer;
+      border: none;
+      font-family: 'Barlow';
+      text-transform: uppercase;
+    }
+
     h1, h2, h3 {
       text-transform: uppercase;
       font-style: italic;
