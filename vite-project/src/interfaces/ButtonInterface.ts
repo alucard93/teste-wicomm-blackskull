@@ -12,6 +12,7 @@ export interface IProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     | "dark2"
     | "dark3"
     | "gray1"
-    | "gray2";
+    | "gray2"
+    | "gray3";
   buttonSize?: string
 }
