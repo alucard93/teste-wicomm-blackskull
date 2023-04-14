@@ -4,9 +4,9 @@ import { Paragraph } from "../../../styles/typography";
 import { ProductCategoryStyled } from "./style";
 import { IDatabaseCategories } from "../../../database/database";
 
-
-
-export const ProductCategory = ({ databaseCategories }: IDatabaseCategories) => {
+export const ProductCategory = ({
+  databaseCategories,
+}: IDatabaseCategories) => {
   return (
     <>
       {databaseCategories.map((category) => (
