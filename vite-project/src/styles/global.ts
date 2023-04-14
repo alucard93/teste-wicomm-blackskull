@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     *{
@@ -8,12 +8,20 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        /* background-color: ${(props) => props.theme['black1']}; */
-        -webkit-font-smoothing: antialiased;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      text-decoration: none;
     }
 
     p {
       font-family: 'Barlow';
+    }
+
+    ul, ol {
+      width: 100%;
+      list-style: none;
     }
 
     button {
@@ -36,4 +44,4 @@ export const GlobalStyle = createGlobalStyle`
       align-items: flex-start;
       justify-content: flex-start;
     }
-`
+`;

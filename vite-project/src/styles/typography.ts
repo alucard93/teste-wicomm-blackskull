@@ -72,7 +72,7 @@ export const Paragraph = styled.p<ParagraphProps>`
     size = "sm",
     fontWeight,
     lineHeight,
-    fontFamily = "Inter",
+    fontFamily,
     textTransf = "uppercase"
   }) => css`
     font-size: ${theme.sizes[size]};
