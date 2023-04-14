@@ -45,6 +45,7 @@ export type ParagraphProps = {
   lineHeight?: string | number;
   fontFamily?: string;
   textTransf?: string;
+  textMaxWidth?: string;
 };
 
 // componente Title
@@ -76,6 +77,7 @@ export const Paragraph = styled.p<ParagraphProps>`
     lineHeight,
     fontFamily,
     textTransf = "uppercase",
+    textMaxWidth
   }) => css`
     font-size: ${theme.sizes[size]};
     color: ${theme.colors[color]};
@@ -83,5 +85,6 @@ export const Paragraph = styled.p<ParagraphProps>`
     line-height: ${lineHeight};
     font-family: ${fontFamily};
     text-transform: ${textTransf};
+    max-width: ${textMaxWidth};
   `}
 `;

@@ -13,9 +13,21 @@ export interface IDatababaseCategories {
   title?: string;
 }
 
-
 export interface IDatabaseCategories {
   databaseCategories: IDatababaseCategories[];
+}
+
+export interface IDatababaseProduct {
+  id?: string;
+  src?: string;
+  alt?: string;
+  title?: string;
+  price?: string;
+  payment?: string;
+}
+
+export interface IDatabaseProducts {
+  databaseProducts: IDatababaseProduct[];
 }
 
 export const databaseMain: IDatababaseMain[] = [
@@ -66,4 +78,55 @@ export const databaseCategories: IDatababaseCategories[] = [
     alt: "Descrição da imagem 6",
     title: "Saúde",
   },
+];
+
+export const databaseProducts: IDatababaseProduct[] = [
+  {
+    id: "1",
+    src: "../assets/product.svg",
+    alt: "Descrição da imagem 1",
+    title: "Whey Zero (Com Lactase) Black Skull - 900G",
+    price: "R$ 349,90",
+    payment: "ou 12X de R$ 29,16",
+  },
+  {
+    id: "2",
+    src: "../assets/product.svg",
+    alt: "Descrição da imagem 2",
+    title: "Whey Zero (Com Lactase) Black Skull - 900G",
+    price: "R$ 349,90",
+    payment: "ou 12X de R$ 29,16",
+  },
+  {
+    id: "3",
+    src: "../assets/product.svg",
+    alt: "Descrição da imagem 3",
+    title: "Whey Zero (Com Lactase) Black Skull - 900G",
+    price: "R$ 349,90",
+    payment: "ou 12X de R$ 29,16",
+  },
+  {
+    id: "4",
+    src: "../assets/product.svg",
+    alt: "Descrição da imagem 4",
+    title: "Whey Zero (Com Lactase) Black Skull - 900G",
+    price: "R$ 349,90",
+    payment: "ou 12X de R$ 29,16",
+  },
+  // {
+  //   id: "5",
+  //   src: "../assets/product.svg",
+  //   alt: "Descrição da imagem 5",
+  //   title: "Whey Zero (Com Lactase) Black Skull - 900G",
+  //   price: "R$ 349,90",
+  //   payment: "ou 12X de R$ 29,16",
+  // },
+  // {
+  //   id: "6",
+  //   src: "../assets/product.svg",
+  //   alt: "Descrição da imagem 6",
+  //   title: "Whey Zero (Com Lactase) Black Skull - 900G",
+  //   price: "R$ 349,90",
+  //   payment: "ou 12X de R$ 29,16",
+  // },
 ];
