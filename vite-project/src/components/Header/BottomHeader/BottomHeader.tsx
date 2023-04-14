@@ -1,4 +1,4 @@
-import blackskull from "../../../assets/blackskull-logo.svg";
+import blackskull from "/assets/blackskull-logo.svg";
 
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { BiUserCircle, BiStar } from "react-icons/bi";
