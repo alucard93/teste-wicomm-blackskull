@@ -13,6 +13,11 @@ export interface IDatababaseCategories {
   title?: string;
 }
 
+
+export interface IDatabaseCategories {
+  databaseCategories: IDatababaseCategories[];
+}
+
 export const databaseMain: IDatababaseMain[] = [
   {
     id: "1",
@@ -27,37 +32,37 @@ export const databaseMain: IDatababaseMain[] = [
 export const databaseCategories: IDatababaseCategories[] = [
   {
     id: "1",
-    src: "../assets/product.svg",
+    src: "../assets/category.svg",
     alt: "Descrição da imagem 1",
     title: "Proteínas",
   },
   {
     id: "2",
-    src: "../assets/product.svg",
+    src: "../assets/category.svg",
     alt: "Descrição da imagem 2",
     title: "Hipercalóricos",
   },
   {
     id: "3",
-    src: "../assets/product.svg",
+    src: "../assets/category.svg",
     alt: "Descrição da imagem 3",
     title: "Creatina",
   },
   {
     id: "4",
-    src: "../assets/product.svg",
+    src: "../assets/category.svg",
     alt: "Descrição da imagem 4",
     title: "Packs",
   },
   {
     id: "5",
-    src: "../assets/product.svg",
+    src: "../assets/category.svg",
     alt: "Descrição da imagem 5",
     title: "Aminoácidos",
   },
   {
     id: "6",
-    src: "../assets/product.svg",
+    src: "../assets/category.svg",
     alt: "Descrição da imagem 6",
     title: "Saúde",
   },

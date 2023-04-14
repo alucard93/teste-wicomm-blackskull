@@ -1,11 +1,12 @@
 import React from "react";
 import { databaseCategories } from "../../database/database";
 import { ProductCategory } from "./ProductCategory/ProductCategory";
+import { ProductsCategoriesSliderStyled } from "./style";
 
 export const ProductsCategoriesSlider = () => {
   return (
-    <div>
-      <ProductCategory />
-    </div>
+    <ProductsCategoriesSliderStyled>
+      <ProductCategory databaseCategories={databaseCategories} />
+    </ProductsCategoriesSliderStyled>
   );
 };
