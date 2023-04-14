@@ -49,9 +49,19 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
   letter-spacing: 0.08em;
   color: ${props => props.theme.black1};
   
+  &:hover {
+    border: none;
+    background: ${props => props.theme.orange2};
+    
+  }
+  
   ${({ variant }) => {
     return css`
       background-color: ${buttonVariants[variant]};
+
+      &:hover {
+        background-color: #FFC470;
+      }
     `;
   }}
 
@@ -61,7 +71,5 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
     `;
   }}
 
-  &:hover {
-    border: none;
-  }
+  
 `;
