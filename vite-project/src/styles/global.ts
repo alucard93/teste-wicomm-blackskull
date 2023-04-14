@@ -35,6 +35,7 @@ export const GlobalStyle = createGlobalStyle`
       text-transform: uppercase;
       font-style: italic;
       font-family: 'Roboto Condensed';
+      color: ${props => props.theme.orange1};
     }
 
     section, aside, div{

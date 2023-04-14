@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-  // opções de escolha
+// opções de escolha
 const theme = {
   colors: {
     black1: "#0B0B0B",
@@ -56,12 +56,14 @@ export const Heading = styled("h1").attrs<HeadingProps>(({ level }) => ({
     size = "xxxl",
     fontWeight = 700,
     lineHeight,
-    
   }) => css`
     font-size: ${theme.sizes[size]};
-    color: ${theme.colors[color]};
     font-weight: ${fontWeight};
     line-height: ${lineHeight};
+
+    &::first-line {
+      color: ${theme.colors[color]};
+    }
   `}
 `;
 
@@ -73,7 +75,7 @@ export const Paragraph = styled.p<ParagraphProps>`
     fontWeight,
     lineHeight,
     fontFamily,
-    textTransf = "uppercase"
+    textTransf = "uppercase",
   }) => css`
     font-size: ${theme.sizes[size]};
     color: ${theme.colors[color]};
