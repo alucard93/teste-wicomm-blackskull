@@ -44,6 +44,22 @@ export interface IDatabaseAtletic {
   nameAthetic?: string
 }
 
+// tipagem props atletas
 export interface databaseAthetic {
   databaseAthetic: IDatabaseAtletic[]
+}
+
+
+// tipagem blogs
+export interface IDatabaseBlog {
+  id?: string
+  src?: string
+  alt?: string
+  date?: string
+  description?: string
+} 
+
+// tipagem props atletas
+export interface databaseBlog {
+  databaseBlog: IDatabaseBlog[]
 }

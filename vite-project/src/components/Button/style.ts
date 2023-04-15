@@ -50,6 +50,7 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
   line-height: 20px;
   letter-spacing: 0.08em;
   color: ${(props) => props.theme.black1};
+  white-space: nowrap;
 
   &:hover {
     border: none;

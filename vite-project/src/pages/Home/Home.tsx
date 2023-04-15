@@ -4,6 +4,7 @@ import { ProductsCategoriesSlider } from "../../components/ProductsCategoriesSli
 import { LaunchingSoonSlider } from "../../components/LaunchingSoonSlider/LaunchingSoonSlider";
 import AthleteCarousel from "../../components/AthleteCarousel/AthleteCarousel";
 import { SpecialOffersCarousel } from "../../components/SpecialOffersCarousel/SpecialOffersCarousel";
+import { BlogPostCarousel } from "../../components/BlogPostCarousel/BlogPostCarousel";
 
 export const Home = () => {
   return (
@@ -13,6 +14,7 @@ export const Home = () => {
       <LaunchingSoonSlider />
       <AthleteCarousel />
       <SpecialOffersCarousel />
+      <BlogPostCarousel/>
     </div>
   );
 };

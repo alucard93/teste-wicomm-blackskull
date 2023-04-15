@@ -38,7 +38,7 @@ export const GlobalStyle = createGlobalStyle`
       color: ${props => props.theme.orange1};
     }
 
-    section, aside, div{
+    section, aside, div, article{
       width: 100%;
       display: flex;
       flex-direction: column;
