@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ProductCardStyled = styled.div`
+  position: relative;
   max-width: 277px;
   height: 341px;
   background: ${(props) => props.theme.white};
@@ -38,5 +39,15 @@ export const ProductCardStyled = styled.div`
 
   .content-product > p:nth-child(2) {
     padding-top: 16px;
+  }
+
+  .container-option-off{
+    display: none;
+  }
+
+  .container-option{
+    display: flex;
+    position: absolute;
+    bottom: -48px;
   }
 `;

@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const LaunchingSoonSliderStyled = styled.div`
+height: 490px;
   margin-top: 64px;
-  gap: 24px;
 
   .content{
     justify-content: center;
     align-items: center;
+    padding-bottom: 24px;
   }
 
   .content-products{

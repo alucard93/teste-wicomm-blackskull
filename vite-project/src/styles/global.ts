@@ -45,4 +45,8 @@ export const GlobalStyle = createGlobalStyle`
       align-items: flex-start;
       justify-content: flex-start;
     }
+
+    .container-product__model{
+      max-width: 277px;
+    }
 `;
