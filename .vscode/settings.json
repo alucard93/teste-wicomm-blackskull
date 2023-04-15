@@ -15,6 +15,8 @@
     
 
     "vite-project/.gitignore": true,
-    "README.md": false,
+    "README.md": true,
+    ".editorconfig": true,
+    "vite-project/.eslintrc.json": true
   }
 }
