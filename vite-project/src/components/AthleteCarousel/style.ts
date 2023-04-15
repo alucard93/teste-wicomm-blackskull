@@ -5,6 +5,7 @@ interface AthleticCarouselProps {
 }
 
 export const AthleticCarouselStyled = styled.div<AthleticCarouselProps>`
+  position: relative;
   flex-direction: column;
 
   justify-content: center;
@@ -28,5 +29,14 @@ export const AthleticCarouselStyled = styled.div<AthleticCarouselProps>`
     flex-direction: row;
     justify-content: center;
     gap: 16px;
+  }
+
+  .button{
+    position: absolute;
+    padding: 14px 24px;
+    font-size: 16px;
+    white-space: nowrap;
+
+    bottom: -24px;
   }
 `;
