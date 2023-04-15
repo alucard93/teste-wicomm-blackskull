@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { ProductCardStyled } from "./style";
-import { IDatabaseProducts } from "../../../database/database";
+
 import { Paragraph } from "../../../styles/typography";
 import { BiStar } from "react-icons/bi";
 import { BsCart3 } from "react-icons/bs";
 import { ProductCardWithOptions } from "../../ProductCardWithOptions/ProductCardWithOptions";
+import { IDatabaseProducts } from "../../../interfaces/Database";
 
 export const ProductCard = ({ databaseProducts }: IDatabaseProducts) => {
   const [display, setDisplay] = useState<number | null>(null);
@@ -50,7 +51,9 @@ export const ProductCard = ({ databaseProducts }: IDatabaseProducts) => {
               </Paragraph>
             </div>
             <div
-              className={display === index ? "container-option" : "container-option-off"}
+              className={
+                display === index ? "container-option" : "container-option-off"
+              }
             >
               <ProductCardWithOptions />
             </div>

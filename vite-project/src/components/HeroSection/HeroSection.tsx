@@ -1,4 +1,5 @@
-import { IDatababaseMain, databaseMain } from "../../database/database";
+import { databaseMain } from "../../database/database";
+import { IDatababaseMain } from "../../interfaces/Database";
 import { Heading, Paragraph } from "../../styles/typography";
 import { Button } from "../Button/Button";
 import { HeroSectionStiled } from "./style";

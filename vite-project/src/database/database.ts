@@ -1,35 +1,7 @@
-export interface IDatababaseMain {
-  id?: string;
-  src?: string;
-  alt?: string;
-  title?: string;
-  description?: string;
-}
+import { IDatababaseCategories, IDatababaseMain, IDatabaseCategories, IDatababaseProduct, IDatabaseProducts } from "../interfaces/Database";
 
-export interface IDatababaseCategories {
-  id?: string;
-  src?: string;
-  alt?: string;
-  title?: string;
-}
 
-export interface IDatabaseCategories {
-  databaseCategories: IDatababaseCategories[];
-}
-
-export interface IDatababaseProduct {
-  id?: string;
-  src?: string;
-  alt?: string;
-  title?: string;
-  price?: string;
-  payment?: string;
-}
-
-export interface IDatabaseProducts {
-  databaseProducts: IDatababaseProduct[];
-}
-
+// database seção principal
 export const databaseMain: IDatababaseMain[] = [
   {
     id: "1",
@@ -41,6 +13,8 @@ export const databaseMain: IDatababaseMain[] = [
   },
 ];
 
+
+// database seção categorias
 export const databaseCategories: IDatababaseCategories[] = [
   {
     id: "1",
@@ -80,6 +54,8 @@ export const databaseCategories: IDatababaseCategories[] = [
   },
 ];
 
+
+// database seção produtos
 export const databaseProducts: IDatababaseProduct[] = [
   {
     id: "1",
@@ -130,3 +106,4 @@ export const databaseProducts: IDatababaseProduct[] = [
   //   payment: "ou 12X de R$ 29,16",
   // },
 ];
+
