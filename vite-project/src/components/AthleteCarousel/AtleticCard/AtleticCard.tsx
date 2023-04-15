@@ -1,9 +1,9 @@
-import { databaseAthetic } from "../../../interfaces/DatabaseInterface";
+import { IDatabaseAtheticProps } from "../../../interfaces/DatabaseInterface";
 import { Heading, Paragraph } from "../../../styles/typography";
 import { AtleticCardStyled } from "./style";
 import { FaArrowRight } from "react-icons/fa";
 
-export const AtleticCard = ({ databaseAthetic }: databaseAthetic) => {
+export const AtleticCard = ({ databaseAthetic }: IDatabaseAtheticProps) => {
   return (
     <>
       {databaseAthetic.map((atletic) => (

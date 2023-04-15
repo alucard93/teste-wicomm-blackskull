@@ -2,10 +2,10 @@ import React from "react";
 import { BlogCardStyled } from "./style";
 import Button from "../../Button/Button";
 import { Paragraph } from "../../../styles/typography";
-import { databaseBlog } from "../../../interfaces/DatabaseInterface";
+import { IDatabaseBlogProps } from "../../../interfaces/DatabaseInterface";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
-export const BlogCard = ({ databaseBlog }: databaseBlog) => {
+export const BlogCard = ({ databaseBlog }: IDatabaseBlogProps) => {
   return (
     <>
       {databaseBlog.map((article) => (

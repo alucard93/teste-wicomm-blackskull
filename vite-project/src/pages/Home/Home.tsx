@@ -5,6 +5,7 @@ import { LaunchingSoonSlider } from "../../components/LaunchingSoonSlider/Launch
 import AthleteCarousel from "../../components/AthleteCarousel/AthleteCarousel";
 import { SpecialOffersCarousel } from "../../components/SpecialOffersCarousel/SpecialOffersCarousel";
 import { BlogPostCarousel } from "../../components/BlogPostCarousel/BlogPostCarousel";
+import { PersonalObjectivesSlider } from "../../components/PersonalObjectivesSlider/PersonalObjectivesSlider";
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
       <AthleteCarousel />
       <SpecialOffersCarousel />
       <BlogPostCarousel/>
+      <PersonalObjectivesSlider/>
     </div>
   );
 };

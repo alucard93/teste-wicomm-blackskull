@@ -1,10 +1,10 @@
 import { Paragraph } from "../../../styles/typography";
 import { ProductCategoryStyled } from "./style";
-import { IDatabaseCategories } from "../../../interfaces/DatabaseInterface";
+import { IDatabaseCategoriesProps } from "../../../interfaces/DatabaseInterface";
 
 export const ProductCategory = ({
   databaseCategories,
-}: IDatabaseCategories) => {
+}: IDatabaseCategoriesProps) => {
   return (
     <>
       {databaseCategories.map((category) => (

@@ -1,11 +1,10 @@
 import {
   IDatababaseCategories,
   IDatababaseMain,
-  IDatabaseCategories,
   IDatababaseProduct,
-  IDatabaseProducts,
   IDatabaseAtletic,
   IDatabaseBlog,
+  IDatabaseObjective,
 } from "../interfaces/DatabaseInterface";
 
 // database seção principal
@@ -155,3 +154,30 @@ export const databaseBlog: IDatabaseBlog[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
   },
 ];
+
+export const databaseObjectives: IDatabaseObjective[] = [
+  {
+    id: "1",
+    src: "../assets/objectiveCard1.svg",
+    alt: "Imagem 1 dos Objetivos",
+    title: "Ganho de massa"
+  },
+  {
+    id: "2",
+    src: "../assets/objectiveCard2.svg",
+    alt: "Imagem 2 dos Objetivos",
+    title: "Energia"
+  },
+  {
+    id: "3",
+    src: "../assets/objectiveCard3.svg",
+    alt: "Imagem 3 dos Objetivos",
+    title: "Recuperação Muscular"
+  },
+  {
+    id: "4",
+    src: "../assets/objectiveCard4.svg",
+    alt: "Imagem 4 dos Objetivos",
+    title: "Emagrecimento"
+  },
+]
