@@ -1,0 +1,20 @@
+{
+  // "git.enabled": false,
+  "files.exclude": {
+    
+    "vite-project/node_modules": true,
+    "vite-project/vite.config.ts": true,
+    "vite-project/public": true,
+    "vite-project/package.json": true,
+    "vite-project/package-lock.json": true,
+    "vite-project/tsconfig.json": true,
+    "vite-project/tsconfig.node.json": true,
+    "vite-project/index.html": true,
+    "vite-project/src/vite-env.d.ts": true,
+    ".gitattributes": true,
+    
+
+    "vite-project/.gitignore": true,
+    "README.md": false,
+  }
+}
