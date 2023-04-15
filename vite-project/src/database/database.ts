@@ -5,6 +5,7 @@ import {
   IDatababaseProduct,
   IDatabaseProducts,
   IDatabaseAtletic,
+  IDatabaseBlog,
 } from "../interfaces/DatabaseInterface";
 
 // database seção principal
@@ -127,5 +128,30 @@ export const databaseAthetic: IDatabaseAtletic[] = [
     id: "3",
     src: "../assets/atleticCard3.svg",
     nameAthetic: "Cedric McMillan",
+  },
+];
+
+// database Blog
+export const databaseBlog: IDatabaseBlog[] = [
+  {
+    id: "1",
+    src: "../assets/blogCard1.svg",
+    alt: "Imagem 1 primeiro artigo do blog",
+    date: "03.05.21",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+  {
+    id: "2",
+    src: "../assets/blogCard2.svg",
+    alt: "Imagem 2 segundo artigo do blog",
+    date: "03.05.21",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+  {
+    id: "3",
+    src: "../assets/blogCard3.svg",
+    alt: "Imagem 3 terceiro artigo do blog",
+    date: "03.05.21",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
   },
 ];
