@@ -1,35 +1,13 @@
-export interface IDatababaseMain {
-  id?: string;
-  src?: string;
-  alt?: string;
-  title?: string;
-  description?: string;
-}
+import {
+  IDatababaseCategories,
+  IDatababaseMain,
+  IDatabaseCategories,
+  IDatababaseProduct,
+  IDatabaseProducts,
+  IDatabaseAtletic,
+} from "../interfaces/DatabaseInterface";
 
-export interface IDatababaseCategories {
-  id?: string;
-  src?: string;
-  alt?: string;
-  title?: string;
-}
-
-export interface IDatabaseCategories {
-  databaseCategories: IDatababaseCategories[];
-}
-
-export interface IDatababaseProduct {
-  id?: string;
-  src?: string;
-  alt?: string;
-  title?: string;
-  price?: string;
-  payment?: string;
-}
-
-export interface IDatabaseProducts {
-  databaseProducts: IDatababaseProduct[];
-}
-
+// database seção principal
 export const databaseMain: IDatababaseMain[] = [
   {
     id: "1",
@@ -41,6 +19,7 @@ export const databaseMain: IDatababaseMain[] = [
   },
 ];
 
+// database seção categorias
 export const databaseCategories: IDatababaseCategories[] = [
   {
     id: "1",
@@ -80,6 +59,7 @@ export const databaseCategories: IDatababaseCategories[] = [
   },
 ];
 
+// database seção produtos
 export const databaseProducts: IDatababaseProduct[] = [
   {
     id: "1",
@@ -129,4 +109,23 @@ export const databaseProducts: IDatababaseProduct[] = [
   //   price: "R$ 349,90",
   //   payment: "ou 12X de R$ 29,16",
   // },
+];
+
+// database Atletas
+export const databaseAthetic: IDatabaseAtletic[] = [
+  {
+    id: "1",
+    src: "../assets/atleticCard1.svg",
+    nameAthetic: "Cedric McMillan",
+  },
+  {
+    id: "2",
+    src: "../assets/atleticCard2.svg",
+    nameAthetic: "Cedric McMillan",
+  },
+  {
+    id: "3",
+    src: "../assets/atleticCard3.svg",
+    nameAthetic: "Cedric McMillan",
+  },
 ];

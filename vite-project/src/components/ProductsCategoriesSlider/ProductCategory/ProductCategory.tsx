@@ -1,8 +1,6 @@
-import React from "react";
-
 import { Paragraph } from "../../../styles/typography";
 import { ProductCategoryStyled } from "./style";
-import { IDatabaseCategories } from "../../../database/database";
+import { IDatabaseCategories } from "../../../interfaces/DatabaseInterface";
 
 export const ProductCategory = ({
   databaseCategories,

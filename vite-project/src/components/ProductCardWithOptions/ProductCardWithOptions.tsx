@@ -1,4 +1,3 @@
-import React from "react";
 import { ProductCardWithOptionsStyled } from "./style";
 import Button from "../Button/Button";
 import { Paragraph } from "../../styles/typography";
