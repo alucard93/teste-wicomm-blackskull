@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const ProductCardWithOptionsStyled = styled.div`
 
   .content-background{
@@ -9,8 +8,18 @@ export const ProductCardWithOptionsStyled = styled.div`
     height: 200px;
     gap: 16px;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
+    animation: slide-up 0.6s forwards;
   }
+
+@keyframes slide-up {
+  from {
+    transform: translateY(10%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 
   .content-buttons {
     flex-direction: row;
@@ -19,5 +28,5 @@ export const ProductCardWithOptionsStyled = styled.div`
     gap: 8px;
     flex-wrap: wrap;
   }
-  
+ 
 `
