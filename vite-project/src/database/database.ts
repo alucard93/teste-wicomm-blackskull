@@ -1,5 +1,11 @@
-import { IDatababaseCategories, IDatababaseMain, IDatabaseCategories, IDatababaseProduct, IDatabaseProducts } from "../interfaces/Database";
-
+import {
+  IDatababaseCategories,
+  IDatababaseMain,
+  IDatabaseCategories,
+  IDatababaseProduct,
+  IDatabaseProducts,
+  IDatabaseAtletic,
+} from "../interfaces/DatabaseInterface";
 
 // database seção principal
 export const databaseMain: IDatababaseMain[] = [
@@ -12,7 +18,6 @@ export const databaseMain: IDatababaseMain[] = [
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
   },
 ];
-
 
 // database seção categorias
 export const databaseCategories: IDatababaseCategories[] = [
@@ -53,7 +58,6 @@ export const databaseCategories: IDatababaseCategories[] = [
     title: "Saúde",
   },
 ];
-
 
 // database seção produtos
 export const databaseProducts: IDatababaseProduct[] = [
@@ -107,3 +111,21 @@ export const databaseProducts: IDatababaseProduct[] = [
   // },
 ];
 
+// database Atletas
+export const databaseAthetic: IDatabaseAtletic[] = [
+  {
+    id: "1",
+    src: "../assets/atleticCard1.svg",
+    nameAthetic: "Cedric McMillan",
+  },
+  {
+    id: "2",
+    src: "../assets/atleticCard2.svg",
+    nameAthetic: "Cedric McMillan",
+  },
+  {
+    id: "3",
+    src: "../assets/atleticCard3.svg",
+    nameAthetic: "Cedric McMillan",
+  },
+];

@@ -35,3 +35,15 @@ export interface IDatababaseProduct {
 export interface IDatabaseProducts {
   databaseProducts: IDatababaseProduct[];
 }
+
+// tipagem atletas
+
+export interface IDatabaseAtletic {
+  id?: string
+  src?: string
+  nameAthetic?: string
+}
+
+export interface databaseAthetic {
+  databaseAthetic: IDatabaseAtletic[]
+}

@@ -1,7 +1,6 @@
 import { Paragraph } from "../../../styles/typography";
 import { ProductCategoryStyled } from "./style";
-import { IDatabaseCategories } from "../../../interfaces/Database";
-
+import { IDatabaseCategories } from "../../../interfaces/DatabaseInterface";
 
 export const ProductCategory = ({
   databaseCategories,
