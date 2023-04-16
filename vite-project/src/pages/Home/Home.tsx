@@ -7,6 +7,7 @@ import { BlogPostCarousel } from "../../components/BlogPostCarousel/BlogPostCaro
 import { PersonalObjectivesSlider } from "../../components/PersonalObjectivesSlider/PersonalObjectivesSlider";
 import { ExclusiveOffers } from "../../components/ExclusiveOffers/ExclusiveOffers";
 import { HomeStyled } from "./style";
+import { BrandAbout } from "../../components/BrandAbout/BrandAbout";
 
 export const Home = () => {
   
@@ -26,6 +27,7 @@ export const Home = () => {
         <ExclusiveOffers svg={box} />
         <ExclusiveOffers svg={money} />
       </section>
+      <BrandAbout />
     </HomeStyled>
   );
 };
