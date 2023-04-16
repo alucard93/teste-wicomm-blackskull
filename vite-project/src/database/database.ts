@@ -160,24 +160,237 @@ export const databaseObjectives: IDatabaseObjective[] = [
     id: "1",
     src: "../assets/objectiveCard1.svg",
     alt: "Imagem 1 dos Objetivos",
-    title: "Ganho de massa"
+    title: "Ganho de massa",
   },
   {
     id: "2",
     src: "../assets/objectiveCard2.svg",
     alt: "Imagem 2 dos Objetivos",
-    title: "Energia"
+    title: "Energia",
   },
   {
     id: "3",
     src: "../assets/objectiveCard3.svg",
     alt: "Imagem 3 dos Objetivos",
-    title: "Recuperação Muscular"
+    title: "Recuperação Muscular",
   },
   {
     id: "4",
     src: "../assets/objectiveCard4.svg",
     alt: "Imagem 4 dos Objetivos",
-    title: "Emagrecimento"
+    title: "Emagrecimento",
   },
-]
+];
+
+interface IFooterSocial {
+  id?: string;
+  src?: string;
+  alt?: string;
+}
+
+interface IFooterAbout {
+  id?: string;
+  text?: string;
+}
+
+interface IFooterNorms {
+  id?: string;
+  text?: string;
+}
+
+interface IFooterRegulation {
+  id?: string;
+  text?: string;
+}
+
+interface IFooterPaymentMethod {
+  id?: string
+  src?: string
+  alt?: string
+}
+
+interface IFooterSecurition {
+  id?: string
+  src?: string
+  alt?: string
+}
+
+interface IDatabaseFooter {
+  social: IFooterSocial[];
+  about: IFooterAbout[];
+  norms: IFooterNorms[];
+  regulation: IFooterRegulation[];
+  paymentMethods: IFooterPaymentMethod[];
+  securition: IFooterSecurition[]
+}
+
+export const databaseFooter: IDatabaseFooter = {
+  social: [
+    {
+      id: "1",
+      src: "../assets/facebook.svg",
+      alt: "logo facebook",
+    },
+    {
+      id: "2",
+      src: "../assets/instagram.svg",
+      alt: "logo instagram",
+    },
+    {
+      id: "3",
+      src: "../assets/youtube.svg",
+      alt: "logo youtube",
+    },
+    {
+      id: "4",
+      src: "../assets/twitter.svg",
+      alt: "logo twitter",
+    },
+    {
+      id: "5",
+      src: "../assets/tiktok.svg",
+      alt: "logo tiktok",
+    },
+  ],
+
+  about: [
+    {
+      id: "1",
+      text: "Blackskull USA",
+    },
+    {
+      id: "2",
+      text: "Sobre Nós",
+    },
+    {
+      id: "3",
+      text: "Black Skull é confiável?",
+    },
+    {
+      id: "4",
+      text: "Atletas Black Skull",
+    },
+    {
+      id: "5",
+      text: "Nosso Blog",
+    },
+    {
+      id: "6",
+      text: "Seja um Revendedor",
+    },
+    {
+      id: "7",
+      text: "Entre em Contato",
+    },
+  ],
+  norms: [
+    {
+      id: "1",
+      text: "Institucional",
+    },
+    {
+      id: "2",
+      text: "Trocas e Devoluções",
+    },
+    {
+      id: "3",
+      text: "Política de Entregas",
+    },
+    {
+      id: "4",
+      text: "Política de Privacidade",
+    },
+    {
+      id: "5",
+      text: "Política de Cancelamentos",
+    },
+  ],
+  regulation: [
+    {
+      id: "1",
+      text: "Afiliados",
+    },
+    {
+      id: "2",
+      text: "Programa de Afiliados",
+    },
+    {
+      id: "3",
+      text: "Desconto para Militares",
+    },
+    {
+      id: "4",
+      text: "Benefícios para Profissionais da Saúde"
+    },
+    {
+      id: "5",
+      text: "Benefícios para Profs. de Educação Física"
+    },
+    {
+      id: "6",
+      text: "Assinaturas"
+    },
+  ],
+  paymentMethods: [
+    {
+      id: "1",
+      src: "../assets/mercadopago.svg",
+      alt: "logo mercado pago"
+    },
+    {
+      id: "2",
+      src: "../assets/visa.svg",
+      alt: "logo visa"
+    },
+    {
+      id: "3",
+      src: "../assets/mastercard.svg",
+      alt: "logo mastercard"
+    },
+    {
+      id: "4",
+      src: "../assets/hipercard.svg",
+      alt: "logo hipercard"
+    },
+    {
+      id: "5",
+      src: "../assets/pix.svg",
+      alt: "logo pix"
+    },
+    {
+      id: "6",
+      src: "../assets/amex.svg",
+      alt: "logo amex"
+    },
+    {
+      id: "7",
+      src: "../assets/dinnerclub.svg",
+      alt: "logo dinnerclub"
+    },
+    {
+      id: "8",
+      src: "../assets/elo.svg",
+      alt: "logo elo"
+    },
+    {
+      id: "9",
+      src: "../assets/boleto.svg",
+      alt: "imagem boleto"
+    },
+  ],
+  securition: [
+    {
+      id: "1",
+      src: "../assets/vtex.svg",
+      alt: "logo vtex"
+    },
+   
+    {
+      id: "2",
+      src: "../assets/bit.svg",
+      alt: "logo bit"
+    },
+  ]
+};
+
+

@@ -2,7 +2,6 @@ import { IDatabaseObjectiveProps } from "../../../interfaces/DatabaseInterface";
 import { Paragraph } from "../../../styles/typography";
 import { ImageViewer } from "./ImageViewerSvg/ImageViewer";
 import { ObjectiveCardStyled } from "./style";
-import 'animate.css';
 
 export const ObjectiveCard = ({
   databaseObjective,
