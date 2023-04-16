@@ -4,6 +4,7 @@ export const FooterStyled = styled.footer`
   display: flex;
   width: 100%;
   flex-direction: column;
+  margin-top: 24px;
   background-color: ${(props) => props.theme.black1};
 
   .content-header {
