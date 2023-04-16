@@ -4,7 +4,7 @@
     
     "vite-project/node_modules": true,
     "vite-project/vite.config.ts": true,
-    "vite-project/public": true,
+    // "vite-project/public": true,
     "vite-project/package.json": true,
     "vite-project/package-lock.json": true,
     "vite-project/tsconfig.json": true,

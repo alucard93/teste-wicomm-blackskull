@@ -1,4 +1,3 @@
-import React from "react";
 import { HeroSection } from "../../components/HeroSection/HeroSection";
 import { ProductsCategoriesSlider } from "../../components/ProductsCategoriesSlider/ProductsCategoriesSlider";
 import { LaunchingSoonSlider } from "../../components/LaunchingSoonSlider/LaunchingSoonSlider";
@@ -6,17 +5,27 @@ import AthleteCarousel from "../../components/AthleteCarousel/AthleteCarousel";
 import { SpecialOffersCarousel } from "../../components/SpecialOffersCarousel/SpecialOffersCarousel";
 import { BlogPostCarousel } from "../../components/BlogPostCarousel/BlogPostCarousel";
 import { PersonalObjectivesSlider } from "../../components/PersonalObjectivesSlider/PersonalObjectivesSlider";
+import { ExclusiveOffers } from "../../components/ExclusiveOffers/ExclusiveOffers";
+import { HomeStyled } from "./style";
 
 export const Home = () => {
+  
+  const box = true
+  const money = false
+
   return (
-    <div>
+    <HomeStyled>
       <HeroSection />
       <ProductsCategoriesSlider />
       <LaunchingSoonSlider />
       <AthleteCarousel />
       <SpecialOffersCarousel />
-      <BlogPostCarousel/>
-      <PersonalObjectivesSlider/>
-    </div>
+      <BlogPostCarousel />
+      <PersonalObjectivesSlider />
+      <section className="content-offers">
+        <ExclusiveOffers svg={box} />
+        <ExclusiveOffers svg={money} />
+      </section>
+    </HomeStyled>
   );
 };
