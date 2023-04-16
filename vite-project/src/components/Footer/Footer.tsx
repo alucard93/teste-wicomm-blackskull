@@ -1,6 +1,7 @@
 import React from "react";
 import { FooterStyled } from "./style";
 import { FooterLeftInterative } from "./FooterLeftInterative/FooterLeftInterative";
+import { FooterBottom } from "./FooterBottom/FooterBottom";
 
 export const Footer = () => {
   return (
@@ -15,7 +16,7 @@ export const Footer = () => {
       </div>
 
       <div className="content-footer">
-        <h1>testeF</h1>
+        <FooterBottom />
       </div>
     </FooterStyled>
   );
