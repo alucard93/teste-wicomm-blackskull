@@ -96,5 +96,6 @@ export const AtleticCardStyled = styled.div`
     font-size: 16px;
     vertical-align: middle;
     margin-left: 2px;
+    
   }
 `;

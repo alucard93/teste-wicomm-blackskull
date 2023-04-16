@@ -16,7 +16,7 @@ export interface IDatababaseCategories {
 }
 
 // tipagem props categories
-export interface IDatabaseCategories {
+export interface IDatabaseCategoriesProps {
   databaseCategories: IDatababaseCategories[];
 }
 
@@ -32,7 +32,7 @@ export interface IDatababaseProduct {
 
 
 // tipagem props produtos
-export interface IDatabaseProducts {
+export interface IDatabaseProductsProps {
   databaseProducts: IDatababaseProduct[];
 }
 
@@ -45,7 +45,7 @@ export interface IDatabaseAtletic {
 }
 
 // tipagem props atletas
-export interface databaseAthetic {
+export interface IDatabaseAtheticProps {
   databaseAthetic: IDatabaseAtletic[]
 }
 
@@ -60,6 +60,19 @@ export interface IDatabaseBlog {
 } 
 
 // tipagem props atletas
-export interface databaseBlog {
+export interface IDatabaseBlogProps {
   databaseBlog: IDatabaseBlog[]
+}
+
+// tipagem objetivos
+export interface IDatabaseObjective {
+  id?: string
+  src?: string
+  alt?: string
+  title?: string
+} 
+
+// tipagem props objetivos
+export interface IDatabaseObjectiveProps {
+  databaseObjective: IDatabaseObjective[]
 }
