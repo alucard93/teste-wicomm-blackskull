@@ -16,7 +16,6 @@ export const ObjectiveCardStyled = styled.div`
     border: 1px solid #000000;
 
     clip-path: polygon(5px 0px, 275px 0px, 275px 340px, 5px 340px);
-    background: red;
   }
 
   img {
@@ -39,16 +38,16 @@ export const ObjectiveCardStyled = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
     padding-left: 16px;
 
     position: absolute;
     bottom: 0px;
     left: 0px;
-    
+
     background: ${(props) => props.theme.orange1};
     height: 40px;
-    
+
     max-width: 212px;
     clip-path: polygon(0 0, 212px 0, 212px 0, 0 400px, 0 0);
   }
