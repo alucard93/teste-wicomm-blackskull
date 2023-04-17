@@ -84,6 +84,7 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
             background: ${(props) => props.theme.gray3};
             border: 1.5px solid ${(props) => props.theme.dark1};
           }
+
         `;
 
       default:
