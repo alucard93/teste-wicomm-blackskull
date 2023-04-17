@@ -9,10 +9,10 @@ import { ExclusiveOffers } from "../../components/ExclusiveOffers/ExclusiveOffer
 import { HomeStyled } from "./style";
 import { BrandAbout } from "../../components/BrandAbout/BrandAbout";
 
+
 export const Home = () => {
-  
-  const box = true
-  const money = false
+  const box = true;
+  const money = false;
 
   return (
     <HomeStyled>
