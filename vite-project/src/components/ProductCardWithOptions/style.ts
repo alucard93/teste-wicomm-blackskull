@@ -14,10 +14,10 @@ export const ProductCardWithOptionsStyled = styled.div`
 
 @keyframes slide-up {
   from {
-    transform: translateY(10%);
+    transform: translateY(0%);
   }
   to {
-    transform: translateY(0);
+    transform: translateY(-5%);
   }
 }
 
