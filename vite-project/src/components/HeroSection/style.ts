@@ -30,3 +30,42 @@ export const HeroSectionStiled = styled.div<IHeroSectionStiledProps>`
   }
   
 `;
+
+import Slider from "react-slick";
+
+
+
+export const StyledSlider = styled(Slider)`
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    list-style: none;
+    display: flex !important;
+    
+    
+    justify-content: center;
+
+    li {
+      margin: 0 14px;
+      button {
+        
+        width: 40px;
+        height: 2px;
+        
+        list-style: none;
+        
+        /* background: orange; */
+        transition: all 0.3s ease;
+
+        &.slick-active {
+          background-color: orange;
+          color: yellow;
+          width: 12px;
+          height: 12px;
+          
+        }
+      }
+    }
+  }
+`;
