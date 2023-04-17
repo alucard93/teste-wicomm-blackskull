@@ -3,10 +3,14 @@ import styled from "styled-components";
 export const ProductCategoryStyled = styled.div`
   height: 210px;
   max-width: 178px;
+  
 
   align-items: center;
   justify-content: space-between;
   transition: background-color 0.5s ease;
+  
+  
+  min-width: 178px;
 
   .background-img {
     background-color: ${(props) => props.theme.gray3};
@@ -15,10 +19,13 @@ export const ProductCategoryStyled = styled.div`
 
     justify-content: center;
     align-items: center;
-
+   
+    
     img {
+      z-index: 100;
       transition: transform 0.5s ease;
       transform: scale(1);
+      
     }
 
     &:hover {
