@@ -15,7 +15,7 @@ export const HeroSectionStiled = styled.div<IHeroSectionStiledProps>`
   .content {
     justify-content: center;
     gap: 16px;
-
+    margin-top: 120px;
     max-width: 551px;
 
     margin-left: 155px;
