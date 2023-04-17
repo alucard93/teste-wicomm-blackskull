@@ -26,7 +26,7 @@ export const HeroSectionStiled = styled.div<IHeroSectionStiledProps>`
 
     & > button {
       margin-top: 16px;
-      
     }
   }
+  
 `;

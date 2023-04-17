@@ -24,6 +24,14 @@ export const ProductCardStyled = styled.div`
     color: ${props => props.theme.gray1};
   }
 
+  .icon-on {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    height: 24px;
+    color: ${props => props.theme.orange1};
+  }
+
   .iconCart {
     position: absolute;
     top: 52px;
