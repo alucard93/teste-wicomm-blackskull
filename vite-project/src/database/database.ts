@@ -17,6 +17,22 @@ export const databaseMain: IDatababaseMain[] = [
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
   },
+  {
+    id: "2",
+    src: "../assets/main.svg",
+    alt: "Descrição da imagem 1",
+    title: "Ajudando você a ter mais performance",
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+  },
+  {
+    id: "3",
+    src: "../assets/main.svg",
+    alt: "Descrição da imagem 1",
+    title: "Ajudando você a ter mais performance",
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
+  },
 ];
 
 // database seção categorias

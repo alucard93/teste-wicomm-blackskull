@@ -30,6 +30,9 @@ export interface IDatababaseProduct {
   payment?: string;
 }
 
+export interface IDatabaseMainProps {
+  data: IDatababaseMain
+}
 
 // tipagem props produtos
 export interface IDatabaseProductsProps {
