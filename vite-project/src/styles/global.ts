@@ -49,4 +49,25 @@ export const GlobalStyle = createGlobalStyle`
     .container-product__model{
       max-width: 277px;
     }
+
+   .iconLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+    height: 32px;
+    position: absolute;
+    top: 150px;
+    left: -45px;
+   }
+   .iconRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+    height: 32px;
+    position: absolute;
+    top: 150px;
+    right: -45px;
+   }
 `;

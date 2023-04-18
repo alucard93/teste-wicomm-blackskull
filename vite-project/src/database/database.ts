@@ -144,6 +144,16 @@ export const databaseAthetic: IDatabaseAtletic[] = [
     src: "../assets/atleticCard3.svg",
     nameAthetic: "Cedric McMillan",
   },
+  {
+    id: "4",
+    src: "../assets/atleticCard2.svg",
+    nameAthetic: "Cedric McMillan",
+  },
+  {
+    id: "5",
+    src: "../assets/atleticCard3.svg",
+    nameAthetic: "Cedric McMillan",
+  },
 ];
 
 // database Blog
