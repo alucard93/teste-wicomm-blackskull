@@ -35,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
       text-transform: uppercase;
       font-style: italic;
       font-family: 'Roboto Condensed';
-      color: ${props => props.theme.orange1};
+      color: ${(props) => props.theme.orange1};
     }
 
     section, aside, div, article{
@@ -50,21 +50,21 @@ export const GlobalStyle = createGlobalStyle`
       max-width: 277px;
     }
 
+    // css slider arrow
    .iconLeft{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: red;
     height: 32px;
     position: absolute;
     top: 150px;
     left: -45px;
    }
+
    .iconRight{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: red;
     height: 32px;
     position: absolute;
     top: 150px;

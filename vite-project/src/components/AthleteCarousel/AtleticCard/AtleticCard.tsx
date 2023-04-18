@@ -4,18 +4,18 @@ import { AtleticCardStyled } from "./style";
 import { FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
 
-import { ImageViewer } from "../../PersonalObjectivesSlider/ObjectiveCard/ImageViewerSvg/ImageViewer";
-import { LeftArrow } from "../../LeftArrow/LeftArrow";
-import { RightArrow } from "../../RightArrow/RightArrow";
+import { ImageViewer } from "../../SvgComponents/ImageViewerSvg/ImageViewer";
+import { LeftArrow } from "../../SvgComponents/LeftArrow/LeftArrow";
+import { RightArrow } from "../../SvgComponents/RightArrow/RightArrow";
 
 export const AtleticCard = ({ databaseAthetic }: IDatabaseAtheticProps) => {
   const settings = {
     dots: true,
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: -2,
     autoplay: true,
-    speed: 5000,
+    speed: 6000,
     autoplaySpeed: 2000,
     cssEase: "linear",
     prevArrow: <LeftArrow />,

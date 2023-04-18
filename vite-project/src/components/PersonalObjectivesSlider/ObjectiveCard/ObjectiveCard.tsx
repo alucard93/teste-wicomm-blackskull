@@ -1,6 +1,6 @@
 import { IDatabaseObjectiveProps } from "../../../interfaces/DatabaseInterface";
 import { Paragraph } from "../../../styles/typography";
-import { ImageViewer } from "./ImageViewerSvg/ImageViewer";
+import { ImageViewer } from "../../SvgComponents/ImageViewerSvg/ImageViewer";
 import { ObjectiveCardStyled } from "./style";
 
 export const ObjectiveCard = ({
@@ -23,7 +23,7 @@ export const ObjectiveCard = ({
                   {objective.title}
                 </Paragraph>
               </div>
-                <ImageViewer className="icon" />
+              <ImageViewer className="icon" />
             </div>
           </div>
         </ObjectiveCardStyled>

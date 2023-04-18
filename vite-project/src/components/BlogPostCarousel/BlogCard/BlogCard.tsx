@@ -32,8 +32,10 @@ export const BlogCard = ({ databaseBlog }: IDatabaseBlogProps) => {
                 {article.description}
               </Paragraph>
               <div className="content-button">
-                <Button className="button" buttonSize={"138px"}>Ler mais</Button>
-                <BsBoxArrowUpRight className="icon"/>
+                <Button className="button" buttonSize={"138px"}>
+                  Ler mais
+                </Button>
+                <BsBoxArrowUpRight className="icon" />
               </div>
             </div>
           </div>

@@ -2,10 +2,6 @@ import React, { ReactNode } from "react";
 import { OfferCardStyled } from "./style";
 import { Heading } from "../../../styles/typography";
 import Button from "../../Button/Button";
-import { useState } from "react";
-
-// componentes Svg
-import { BoxSvg } from "../BoxSvg/BoxSvg";
 
 interface OfferCardProps {
   children?: ReactNode;
@@ -13,7 +9,7 @@ interface OfferCardProps {
   className?: string;
   classNameTitle?: string;
   classNameButton?: string;
-  ComponentSvg?: string | boolean
+  ComponentSvg?: string | boolean;
 }
 
 export const OfferCard = ({
@@ -22,8 +18,7 @@ export const OfferCard = ({
   classNameButton,
   contentButton,
 }: OfferCardProps) => {
-
-
+  
   return (
     <OfferCardStyled>
       <div className="content-info">

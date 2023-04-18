@@ -86,16 +86,13 @@ export const AtleticCardStyled = styled.div`
     animation: ${slideInFromLeftReverse} 0.3s ease-in-out forwards;
   }
 
-
-
   .title {
     white-space: nowrap;
   }
 
-  .icon{
+  .icon {
     font-size: 16px;
     vertical-align: middle;
     margin-left: 2px;
-    
   }
 `;

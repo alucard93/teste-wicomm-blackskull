@@ -1,5 +1,5 @@
 import { Paragraph } from "../../../styles/typography";
-import { IconTruck } from "./IconTruck/IconTruck";
+import { IconTruck } from "../../SvgComponents/IconTruck/IconTruck";
 import { TopHeaderStyle } from "./style";
 
 export const TopHeader = () => {
