@@ -4,6 +4,7 @@ import {
   IDatababaseProduct,
   IDatabaseAtletic,
   IDatabaseBlog,
+  IDatabaseFooter,
   IDatabaseObjective,
 } from "../interfaces/DatabaseInterface";
 
@@ -17,22 +18,7 @@ export const databaseMain: IDatababaseMain[] = [
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
   },
-  {
-    id: "2",
-    src: "../assets/main.svg",
-    alt: "Descrição da imagem 1",
-    title: "Ajudando você a ter mais performance",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
-  },
-  {
-    id: "3",
-    src: "../assets/main.svg",
-    alt: "Descrição da imagem 1",
-    title: "Ajudando você a ter mais performance",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
-  },
+  
 ];
 
 // database seção categorias
@@ -144,6 +130,16 @@ export const databaseAthetic: IDatabaseAtletic[] = [
     src: "../assets/atleticCard3.svg",
     nameAthetic: "Cedric McMillan",
   },
+  {
+    id: "4",
+    src: "../assets/atleticCard2.svg",
+    nameAthetic: "Cedric McMillan",
+  },
+  {
+    id: "5",
+    src: "../assets/atleticCard3.svg",
+    nameAthetic: "Cedric McMillan",
+  },
 ];
 
 // database Blog
@@ -169,8 +165,23 @@ export const databaseBlog: IDatabaseBlog[] = [
     date: "03.05.21",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
   },
+  {
+    id: "4",
+    src: "../assets/blogCard2.svg",
+    alt: "Imagem 4 quarto artigo do blog",
+    date: "03.05.21",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+  {
+    id: "5",
+    src: "../assets/blogCard1.svg",
+    alt: "Imagem 5 quinto artigo do blog",
+    date: "03.05.21",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
 ];
 
+// database objetivos
 export const databaseObjectives: IDatabaseObjective[] = [
   {
     id: "1",
@@ -198,48 +209,7 @@ export const databaseObjectives: IDatabaseObjective[] = [
   },
 ];
 
-interface IFooterSocial {
-  id?: string;
-  src?: string;
-  alt?: string;
-}
-
-interface IFooterAbout {
-  id?: string;
-  text?: string;
-}
-
-interface IFooterNorms {
-  id?: string;
-  text?: string;
-}
-
-interface IFooterRegulation {
-  id?: string;
-  text?: string;
-}
-
-interface IFooterPaymentMethod {
-  id?: string
-  src?: string
-  alt?: string
-}
-
-interface IFooterSecurition {
-  id?: string
-  src?: string
-  alt?: string
-}
-
-interface IDatabaseFooter {
-  social: IFooterSocial[];
-  about: IFooterAbout[];
-  norms: IFooterNorms[];
-  regulation: IFooterRegulation[];
-  paymentMethods: IFooterPaymentMethod[];
-  securition: IFooterSecurition[]
-}
-
+// database footer
 export const databaseFooter: IDatabaseFooter = {
   social: [
     {

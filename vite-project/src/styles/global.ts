@@ -35,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
       text-transform: uppercase;
       font-style: italic;
       font-family: 'Roboto Condensed';
-      color: ${props => props.theme.orange1};
+      color: ${(props) => props.theme.orange1};
     }
 
     section, aside, div, article{
@@ -49,4 +49,5 @@ export const GlobalStyle = createGlobalStyle`
     .container-product__model{
       max-width: 277px;
     }
+
 `;

@@ -1,5 +1,11 @@
+// componentes
 import { DefaultLayout } from "../components/layout/DefaultLayout";
-import { Route, Routes } from 'react-router-dom'
+
+// libs
+import { Route, Routes } from "react-router-dom";
+
+// page
+
 import { Home } from "../pages/Home/Home";
 
 export const Router = () => {

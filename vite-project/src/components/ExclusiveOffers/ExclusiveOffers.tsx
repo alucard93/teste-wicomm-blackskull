@@ -1,20 +1,21 @@
-import { BoxSvg } from "./BoxSvg/BoxSvg";
-import { useEffect } from "react"
-import { OfferCard } from "./OfferCard/OfferCard";
+// estilização
 import { ExcluseOffersStyled } from "./style";
-import { CurrencyCircleDollar } from "./CurrencyCircleDollar/CurrencyCircleDollar";
+
+// componentes
+import { OfferCard } from "./OfferCard/OfferCard";
+import { CurrencyCircleDollar } from "../SvgComponents/CurrencyCircleDollar/CurrencyCircleDollar";
+import { BoxSvg } from "../SvgComponents/BoxSvg/BoxSvg";
 
 interface ExclusiveOffersProps {
-  svg: boolean
+  svg: boolean;
 }
 
 export const ExclusiveOffers = ({ svg }: ExclusiveOffersProps) => {
-  
   return (
     <ExcluseOffersStyled>
       <OfferCard contentButton={"consulte"}>garanta o frete grátis</OfferCard>
       <div className="content-svg">
-        { svg ? (<BoxSvg />) : (<CurrencyCircleDollar />)}
+        {svg ? <BoxSvg /> : <CurrencyCircleDollar />}
       </div>
     </ExcluseOffersStyled>
   );

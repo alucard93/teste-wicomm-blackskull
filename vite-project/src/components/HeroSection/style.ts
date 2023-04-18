@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Slider from "react-slick";
 
 interface IHeroSectionStiledProps {
   photo?: string;
@@ -28,12 +29,7 @@ export const HeroSectionStiled = styled.div<IHeroSectionStiledProps>`
       margin-top: 16px;
     }
   }
-  
 `;
-
-import Slider from "react-slick";
-
-
 
 export const StyledSlider = styled(Slider)`
   .slick-dots {
@@ -42,20 +38,16 @@ export const StyledSlider = styled(Slider)`
     width: 100%;
     list-style: none;
     display: flex !important;
-    
-    
+
     justify-content: center;
 
     li {
-      margin: 0 14px;
       button {
-        
         width: 40px;
         height: 2px;
-        
+
         list-style: none;
-        
-        /* background: orange; */
+
         transition: all 0.3s ease;
 
         &.slick-active {
@@ -63,7 +55,6 @@ export const StyledSlider = styled(Slider)`
           color: yellow;
           width: 12px;
           height: 12px;
-          
         }
       }
     }

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { IconTruckStyle } from "./style";
 
 export const IconTruck = () => {
