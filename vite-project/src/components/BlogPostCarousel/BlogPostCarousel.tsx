@@ -1,6 +1,10 @@
-import React from "react";
+// estilização
 import { BlogPostCarouselStyled } from "./style";
+
+// banco de dados
 import { databaseBlog } from "../../database/database";
+
+// componentes
 import { BlogCard } from "./BlogCard/BlogCard";
 import { Heading } from "../../styles/typography";
 import Button from "../Button/Button";

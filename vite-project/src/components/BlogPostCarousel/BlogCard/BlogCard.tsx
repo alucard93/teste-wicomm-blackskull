@@ -1,14 +1,20 @@
-import React from "react";
-import { BlogCardStyled } from "./style";
-import Button from "../../Button/Button";
-import { Paragraph } from "../../../styles/typography";
-import { IDatabaseBlogProps } from "../../../interfaces/DatabaseInterface";
-import { BsBoxArrowUpRight } from "react-icons/bs";
-
+// react slick
 import Slider from "react-slick";
 
+// estilização
+import { BlogCardStyled } from "./style";
+
+// interface props
+import { IDatabaseBlogProps } from "../../../interfaces/DatabaseInterface";
+
+// componentes
+import Button from "../../Button/Button";
+import { Paragraph } from "../../../styles/typography";
 import { LeftArrow } from "../../SvgComponents/LeftArrow/LeftArrow";
 import { RightArrow } from "../../SvgComponents/RightArrow/RightArrow";
+
+// icon
+import { BsBoxArrowUpRight } from "react-icons/bs";
 
 export const BlogCard = ({ databaseBlog }: IDatabaseBlogProps) => {
   const settings = {
@@ -16,7 +22,7 @@ export const BlogCard = ({ databaseBlog }: IDatabaseBlogProps) => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: -2,
-    
+
     speed: 6000,
     autoplaySpeed: 2000,
     cssEase: "linear",

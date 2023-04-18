@@ -5,7 +5,7 @@ export const BlogPostCarouselStyled = styled.section`
   height: 540px;
   justify-content: center;
   align-items: center;
-  
+
   padding: 0 56px;
 
   .wrapper {

@@ -1,8 +1,12 @@
-import React from "react";
+// estilização
 import { LayoutContainer } from "./style";
-import { Outlet } from "react-router-dom";
+
+// componente
 import { Footer } from "../Footer/Footer";
 import { Header } from "../Header/Header";
+
+// lib
+import { Outlet } from "react-router-dom";
 
 export const DefaultLayout = () => {
   return (

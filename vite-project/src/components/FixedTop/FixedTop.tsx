@@ -1,7 +1,11 @@
-import React from "react";
-import { RxCaretUp } from "react-icons/rx";
-import Button from "../Button/Button";
+// estilização
 import { FixedTopStyled } from "./style";
+
+// icons 
+import { RxCaretUp } from "react-icons/rx";
+
+// componente
+import Button from "../Button/Button";
 
 export const FixedTop = () => {
   const scrollUp = () => {

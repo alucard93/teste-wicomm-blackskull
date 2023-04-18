@@ -1,27 +1,23 @@
+// estilização
+import { HeroSectionStiled, StyledSlider } from "./style";
+
+// banco de dados
 import { databaseMain } from "../../database/database";
-import { IDatabaseMainProps } from "../../interfaces/DatabaseInterface";
+
+// componentes
 import { Heading, Paragraph } from "../../styles/typography";
 import { Button } from "../Button/Button";
-import { FixedTop } from "../FixedTop/FixedTop";
-import { HeroSectionStiled, StyledSlider } from "./style";
+
+// tipagem
+import { IDatabaseMainProps } from "../../interfaces/DatabaseInterface";
 
 export const HeroSection = () => {
   const settings = {
-    dots: true,
-    infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToScroll: -1,
     autoplay: true,
     autoplaySpeed: 5000,
-    appendDots: (dots: any) => (
-      <div style={{}}>
-        <ul style={{ margin: "0px", listStyle: "none", padding: "0px" }}>
-          {" "}
-          {dots}{" "}
-        </ul>
-      </div>
-    ),
   };
 
   return (

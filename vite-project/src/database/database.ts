@@ -4,6 +4,7 @@ import {
   IDatababaseProduct,
   IDatabaseAtletic,
   IDatabaseBlog,
+  IDatabaseFooter,
   IDatabaseObjective,
 } from "../interfaces/DatabaseInterface";
 
@@ -17,22 +18,7 @@ export const databaseMain: IDatababaseMain[] = [
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
   },
-  {
-    id: "2",
-    src: "../assets/main.svg",
-    alt: "Descrição da imagem 1",
-    title: "Ajudando você a ter mais performance",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
-  },
-  {
-    id: "3",
-    src: "../assets/main.svg",
-    alt: "Descrição da imagem 1",
-    title: "Ajudando você a ter mais performance",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna",
-  },
+  
 ];
 
 // database seção categorias
@@ -195,6 +181,7 @@ export const databaseBlog: IDatabaseBlog[] = [
   },
 ];
 
+// database objetivos
 export const databaseObjectives: IDatabaseObjective[] = [
   {
     id: "1",
@@ -222,48 +209,7 @@ export const databaseObjectives: IDatabaseObjective[] = [
   },
 ];
 
-interface IFooterSocial {
-  id?: string;
-  src?: string;
-  alt?: string;
-}
-
-interface IFooterAbout {
-  id?: string;
-  text?: string;
-}
-
-interface IFooterNorms {
-  id?: string;
-  text?: string;
-}
-
-interface IFooterRegulation {
-  id?: string;
-  text?: string;
-}
-
-interface IFooterPaymentMethod {
-  id?: string
-  src?: string
-  alt?: string
-}
-
-interface IFooterSecurition {
-  id?: string
-  src?: string
-  alt?: string
-}
-
-interface IDatabaseFooter {
-  social: IFooterSocial[];
-  about: IFooterAbout[];
-  norms: IFooterNorms[];
-  regulation: IFooterRegulation[];
-  paymentMethods: IFooterPaymentMethod[];
-  securition: IFooterSecurition[]
-}
-
+// database footer
 export const databaseFooter: IDatabaseFooter = {
   social: [
     {

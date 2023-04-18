@@ -1,13 +1,15 @@
-import React from "react";
+// estiização
 import { FooterRightInterativeStyled } from "./style";
+
+// componentes
 import { Heading, Paragraph } from "../../../styles/typography";
 import { Input } from "../../Input/Input";
-import { useForm, FieldValues } from "react-hook-form";
+import Button from "../../Button/Button";
 
+// libs: forms/validação
+import { useForm, FieldValues } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { validationFooterForm } from "../../../validators/validationFooterForm";
-import Button from "../../Button/Button";
-validationFooterForm;
 
 export const FooterRightInterative = () => {
   const {
@@ -21,7 +23,7 @@ export const FooterRightInterative = () => {
 
   function handleSubmitForm(data: any) {
     console.log("enviado com sucesso");
-    reset()
+    reset();
   }
   return (
     <FooterRightInterativeStyled>
@@ -58,7 +60,9 @@ export const FooterRightInterative = () => {
             register={register}
             errosMessage={errors.email?.message?.toString()}
           />
-          <Button buttonSize={"138px"} type="submit">Enviar</Button>
+          <Button buttonSize={"138px"} type="submit">
+            Enviar
+          </Button>
         </form>
       </div>
     </FooterRightInterativeStyled>

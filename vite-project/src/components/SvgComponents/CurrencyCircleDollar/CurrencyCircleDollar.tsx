@@ -1,4 +1,4 @@
-import React from "react";
+
 import { AnimatedSvg } from "./style";
 
 export const CurrencyCircleDollar = () => {

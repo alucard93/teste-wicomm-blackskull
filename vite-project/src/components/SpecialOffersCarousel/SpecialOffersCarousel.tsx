@@ -1,7 +1,11 @@
-import React from 'react'
+// estilização
 import { SpecialOffersCarouselStyled } from './style'
-import { Heading } from '../../styles/typography'
+
+// banco de dados
 import { databaseProducts } from '../../database/database'
+
+// componentes
+import { Heading } from '../../styles/typography'
 import { ProductCard } from '../LaunchingSoonSlider/ProductCard/ProductCard'
 
 export const SpecialOffersCarousel = () => {

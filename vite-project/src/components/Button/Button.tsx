@@ -1,4 +1,7 @@
+// interface
 import { IProps } from "../../interfaces/ButtonInterface";
+
+// estilização
 import { ButtonContainer } from "./style";
 
 export const Button = ({

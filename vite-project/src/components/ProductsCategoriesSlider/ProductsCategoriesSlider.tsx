@@ -1,12 +1,17 @@
-import { databaseCategories } from "../../database/database";
-import { Paragraph } from "../../styles/typography";
-import { ProductCategory } from "./ProductCategory/ProductCategory";
+// estilização
 import { ProductCategoryStyled } from "./ProductCategory/style";
 import { ProductsCategoriesSliderStyled } from "./style";
 
+// banco de dados
+import { databaseCategories } from "../../database/database";
+
+// componente
+import { Paragraph } from "../../styles/typography";
+import { ProductCategory } from "./ProductCategory/ProductCategory";
+
 export const ProductsCategoriesSlider = () => {
   return (
-    <ProductsCategoriesSliderStyled >
+    <ProductsCategoriesSliderStyled>
       <ProductCategory autoSlide={true}>
         {databaseCategories.map((category) => (
           <ProductCategoryStyled key={category.id}>

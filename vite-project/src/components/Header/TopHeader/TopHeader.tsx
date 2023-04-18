@@ -1,6 +1,11 @@
-import { Paragraph } from "../../../styles/typography";
-import { IconTruck } from "../../SvgComponents/IconTruck/IconTruck";
+// estilização
 import { TopHeaderStyle } from "./style";
+
+// componentes
+import { Paragraph } from "../../../styles/typography";
+
+// img
+import { IconTruck } from "../../SvgComponents/IconTruck/IconTruck";
 
 export const TopHeader = () => {
   return (

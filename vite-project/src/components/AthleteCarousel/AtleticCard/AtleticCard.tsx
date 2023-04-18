@@ -1,10 +1,15 @@
-import { IDatabaseAtheticProps } from "../../../interfaces/DatabaseInterface";
-import { Heading, Paragraph } from "../../../styles/typography";
-import { AtleticCardStyled } from "./style";
-import { FaArrowRight } from "react-icons/fa";
+// react slick
 import Slider from "react-slick";
 
-import { ImageViewer } from "../../SvgComponents/ImageViewerSvg/ImageViewer";
+// interface  props
+import { IDatabaseAtheticProps } from "../../../interfaces/DatabaseInterface";
+
+// componentes
+import { Heading, Paragraph } from "../../../styles/typography";
+import { AtleticCardStyled } from "./style";
+
+// icons
+import { FaArrowRight } from "react-icons/fa";
 import { LeftArrow } from "../../SvgComponents/LeftArrow/LeftArrow";
 import { RightArrow } from "../../SvgComponents/RightArrow/RightArrow";
 

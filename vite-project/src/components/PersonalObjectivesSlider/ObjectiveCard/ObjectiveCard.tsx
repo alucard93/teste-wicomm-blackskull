@@ -1,7 +1,12 @@
-import { IDatabaseObjectiveProps } from "../../../interfaces/DatabaseInterface";
+// estilização
+import { ObjectiveCardStyled } from "./style";
+
+// componente
 import { Paragraph } from "../../../styles/typography";
 import { ImageViewer } from "../../SvgComponents/ImageViewerSvg/ImageViewer";
-import { ObjectiveCardStyled } from "./style";
+
+// interface
+import { IDatabaseObjectiveProps } from "../../../interfaces/DatabaseInterface";
 
 export const ObjectiveCard = ({
   databaseObjective,

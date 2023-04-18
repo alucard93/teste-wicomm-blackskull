@@ -1,9 +1,12 @@
-import React from "react";
+// estilização
 import { FooterBottomStyled } from "./style";
+
+// componentes
 import { Paragraph } from "../../../styles/typography";
 
-import wicomm from '../../../../public/assets/wicomm.svg'
-import vtex from '../../../../public/assets/vtexpink.svg'
+// img
+import wicomm from "../../../../public/assets/wicomm.svg";
+import vtex from "../../../../public/assets/vtexpink.svg";
 
 export const FooterBottom = () => {
   return (

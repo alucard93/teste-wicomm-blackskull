@@ -1,5 +1,10 @@
-import React, { ReactNode } from "react";
+// tipagem
+import  { ReactNode } from "react";
+
+// estilização
 import { OfferCardStyled } from "./style";
+
+// componentes
 import { Heading } from "../../../styles/typography";
 import Button from "../../Button/Button";
 

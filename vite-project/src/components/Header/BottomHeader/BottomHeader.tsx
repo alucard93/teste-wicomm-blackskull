@@ -1,11 +1,16 @@
+// estilização
+import { BottomHeaderStyled } from "./style";
+
+// componentes
+import ButtonNavigate from "./ButtonNavigate/ButtonNavigate";
+
+// img - logo
 import blackskull from "/assets/blackskull-logo.svg";
 
+// icons
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { BiUserCircle, BiStar } from "react-icons/bi";
 import { BsCart3 } from "react-icons/bs";
-
-import ButtonNavigate from "./ButtonNavigate/ButtonNavigate";
-import { BottomHeaderStyled } from "./style";
 
 export const BottomHeader = () => {
   return (
