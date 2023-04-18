@@ -92,4 +92,5 @@ export const BlogCardStyled = styled.article`
     height: 24px;
     left: 120px;
   }
+  
 `;

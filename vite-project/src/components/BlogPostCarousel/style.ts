@@ -5,6 +5,8 @@ export const BlogPostCarouselStyled = styled.section`
   height: 540px;
   justify-content: center;
   align-items: center;
+  
+  padding: 0 56px;
 
   .wrapper {
     justify-content: center;
@@ -17,6 +19,8 @@ export const BlogPostCarouselStyled = styled.section`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    /* background-color: red; */
 
     max-width: 1168px;
 

@@ -19,7 +19,8 @@ export const FixedTopStyled = styled.div`
   
   .content-top{
     position: fixed;
-    z-index: 100;
+    
+    z-index: 999;
     top: 460px;
     left: 1130px;
     gap: 10px;

@@ -2,7 +2,7 @@ import { databaseMain } from "../../database/database";
 import { IDatabaseMainProps } from "../../interfaces/DatabaseInterface";
 import { Heading, Paragraph } from "../../styles/typography";
 import { Button } from "../Button/Button";
-import { FixedTop } from "./FixedTop/FixedTop";
+import { FixedTop } from "../FixedTop/FixedTop";
 import { HeroSectionStiled, StyledSlider } from "./style";
 
 export const HeroSection = () => {
@@ -15,19 +15,11 @@ export const HeroSection = () => {
     autoplay: true,
     autoplaySpeed: 5000,
     appendDots: (dots: any) => (
-      <div
-        style={{
-          color: "orange",
-          height: "20px", /* adicione a altura desejada aqui */
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          // position: "absolute",
-          top: "500px",
-          // padding: "10px",
-        }}
-      >
-        <ul style={{ margin: "0px", listStyle: "none", padding: "0px", }}> {dots} </ul>
+      <div style={{}}>
+        <ul style={{ margin: "0px", listStyle: "none", padding: "0px" }}>
+          {" "}
+          {dots}{" "}
+        </ul>
       </div>
     ),
   };
@@ -42,8 +34,6 @@ export const HeroSection = () => {
     </StyledSlider>
   );
 };
-
-
 
 const HeroSectionSlide = ({ data }: IDatabaseMainProps) => (
   <HeroSectionStiled photo={data.src}>
@@ -65,7 +55,6 @@ const HeroSectionSlide = ({ data }: IDatabaseMainProps) => (
       <Button buttonSize={"120px"} variant={"orange1"}>
         Confira
       </Button>
-      <FixedTop />
     </div>
   </HeroSectionStiled>
 );

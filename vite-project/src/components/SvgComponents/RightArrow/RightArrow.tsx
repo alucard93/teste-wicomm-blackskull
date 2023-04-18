@@ -8,7 +8,6 @@ interface RightArrowProps {
 
 export const RightArrow = (props: RightArrowProps) => {
   let { className, style, onClick } = props;
-  className = "iconRight"
   return (
     <div onClick={onClick}>
       <svg

@@ -1,6 +1,6 @@
 import React from "react";
 import { RxCaretUp } from "react-icons/rx";
-import Button from "../../Button/Button";
+import Button from "../Button/Button";
 import { FixedTopStyled } from "./style";
 
 export const FixedTop = () => {

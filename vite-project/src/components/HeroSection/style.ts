@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Slider from "react-slick";
 
 interface IHeroSectionStiledProps {
   photo?: string;
@@ -31,7 +32,6 @@ export const HeroSectionStiled = styled.div<IHeroSectionStiledProps>`
   
 `;
 
-import Slider from "react-slick";
 
 
 
@@ -47,7 +47,7 @@ export const StyledSlider = styled(Slider)`
     justify-content: center;
 
     li {
-      margin: 0 14px;
+      /* margin: 0 14px; */
       button {
         
         width: 40px;

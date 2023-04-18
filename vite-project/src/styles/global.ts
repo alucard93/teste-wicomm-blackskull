@@ -50,24 +50,4 @@ export const GlobalStyle = createGlobalStyle`
       max-width: 277px;
     }
 
-    // css slider arrow
-   .iconLeft{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 32px;
-    position: absolute;
-    top: 150px;
-    left: -45px;
-   }
-
-   .iconRight{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 32px;
-    position: absolute;
-    top: 150px;
-    right: -45px;
-   }
 `;

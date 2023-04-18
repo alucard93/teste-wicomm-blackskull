@@ -16,7 +16,6 @@ export const AtleticCard = ({ databaseAthetic }: IDatabaseAtheticProps) => {
     slidesToScroll: -2,
     autoplay: true,
     speed: 6000,
-    autoplaySpeed: 2000,
     cssEase: "linear",
     prevArrow: <LeftArrow />,
     nextArrow: <RightArrow />,

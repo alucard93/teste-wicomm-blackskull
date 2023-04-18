@@ -8,7 +8,7 @@ import { PersonalObjectivesSlider } from "../../components/PersonalObjectivesSli
 import { ExclusiveOffers } from "../../components/ExclusiveOffers/ExclusiveOffers";
 import { HomeStyled } from "./style";
 import { BrandAbout } from "../../components/BrandAbout/BrandAbout";
-
+import { FixedTop } from "../../components/FixedTop/FixedTop";
 
 export const Home = () => {
   const box = true;
@@ -28,6 +28,7 @@ export const Home = () => {
         <ExclusiveOffers svg={money} />
       </section>
       <BrandAbout />
+      <FixedTop />
     </HomeStyled>
   );
 };

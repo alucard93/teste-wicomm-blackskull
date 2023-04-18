@@ -179,6 +179,20 @@ export const databaseBlog: IDatabaseBlog[] = [
     date: "03.05.21",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
   },
+  {
+    id: "4",
+    src: "../assets/blogCard2.svg",
+    alt: "Imagem 4 quarto artigo do blog",
+    date: "03.05.21",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+  {
+    id: "5",
+    src: "../assets/blogCard1.svg",
+    alt: "Imagem 5 quinto artigo do blog",
+    date: "03.05.21",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
 ];
 
 export const databaseObjectives: IDatabaseObjective[] = [

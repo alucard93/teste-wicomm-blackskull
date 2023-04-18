@@ -14,6 +14,7 @@ export const FooterBottom = () => {
           size={"lg"}
           lineHeight={"19px"}
           color={"white"}
+          textTransf={"none"}
         >
           Black Skull 2022. Todos os direitos reservados.
         </Paragraph>
