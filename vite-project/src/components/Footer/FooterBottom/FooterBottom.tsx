@@ -1,9 +1,12 @@
-import React from "react";
+// estilização
 import { FooterBottomStyled } from "./style";
+
+// componentes
 import { Paragraph } from "../../../styles/typography";
 
-import wicomm from '../../../../public/assets/wicomm.svg'
-import vtex from '../../../../public/assets/vtexpink.svg'
+// img
+import wicomm from "../../../../public/assets/wicomm.svg";
+import vtex from "../../../../public/assets/vtexpink.svg";
 
 export const FooterBottom = () => {
   return (
@@ -14,6 +17,7 @@ export const FooterBottom = () => {
           size={"lg"}
           lineHeight={"19px"}
           color={"white"}
+          textTransf={"none"}
         >
           Black Skull 2022. Todos os direitos reservados.
         </Paragraph>

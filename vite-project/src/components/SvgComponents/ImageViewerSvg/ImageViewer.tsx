@@ -22,4 +22,4 @@ export function ImageViewer(props: ImageViewerProps) {
       </svg>
     </div>
   );
-};
+}

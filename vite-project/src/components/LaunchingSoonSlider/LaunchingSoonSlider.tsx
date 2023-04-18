@@ -1,7 +1,11 @@
-import React from "react";
+// estilização
 import { LaunchingSoonSliderStyled } from "./style";
-import { ProductCard } from "./ProductCard/ProductCard";
+
+// banco de dados
 import { databaseProducts } from "../../database/database";
+
+// componente
+import { ProductCard } from "./ProductCard/ProductCard";
 import { Heading } from "../../styles/typography";
 
 export const LaunchingSoonSlider = () => {
@@ -17,7 +21,6 @@ export const LaunchingSoonSlider = () => {
           <ProductCard databaseProducts={databaseProducts} />
         </section>
       </div>
-      
     </LaunchingSoonSliderStyled>
   );
 };

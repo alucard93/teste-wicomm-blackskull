@@ -79,3 +79,52 @@ export interface IDatabaseObjective {
 export interface IDatabaseObjectiveProps {
   databaseObjective: IDatabaseObjective[]
 }
+
+// tipagem props footer social
+export interface IFooterSocial {
+  id?: string;
+  src?: string;
+  alt?: string;
+}
+
+// tipagem props footer sobre
+export interface IFooterAbout {
+  id?: string;
+  text?: string;
+}
+
+// tipagem props footer normas
+export interface IFooterNorms {
+  id?: string;
+  text?: string;
+}
+
+// tipagem props footer regulamento
+export interface IFooterRegulation {
+  id?: string;
+  text?: string;
+}
+
+// // tipagem props footer metodos de pagamento
+export interface IFooterPaymentMethod {
+  id?: string
+  src?: string
+  alt?: string
+}
+
+// // tipagem props footer segurança
+export interface IFooterSecurition {
+  id?: string
+  src?: string
+  alt?: string
+}
+
+// tipagem footer
+export interface IDatabaseFooter {
+  social: IFooterSocial[];
+  about: IFooterAbout[];
+  norms: IFooterNorms[];
+  regulation: IFooterRegulation[];
+  paymentMethods: IFooterPaymentMethod[];
+  securition: IFooterSecurition[]
+}

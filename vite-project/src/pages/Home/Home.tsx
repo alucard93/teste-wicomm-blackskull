@@ -1,3 +1,7 @@
+// estilização
+import { HomeStyled } from "./style";
+
+// componentes
 import { HeroSection } from "../../components/HeroSection/HeroSection";
 import { ProductsCategoriesSlider } from "../../components/ProductsCategoriesSlider/ProductsCategoriesSlider";
 import { LaunchingSoonSlider } from "../../components/LaunchingSoonSlider/LaunchingSoonSlider";
@@ -6,9 +10,8 @@ import { SpecialOffersCarousel } from "../../components/SpecialOffersCarousel/Sp
 import { BlogPostCarousel } from "../../components/BlogPostCarousel/BlogPostCarousel";
 import { PersonalObjectivesSlider } from "../../components/PersonalObjectivesSlider/PersonalObjectivesSlider";
 import { ExclusiveOffers } from "../../components/ExclusiveOffers/ExclusiveOffers";
-import { HomeStyled } from "./style";
 import { BrandAbout } from "../../components/BrandAbout/BrandAbout";
-
+import { FixedTop } from "../../components/FixedTop/FixedTop";
 
 export const Home = () => {
   const box = true;
@@ -28,6 +31,7 @@ export const Home = () => {
         <ExclusiveOffers svg={money} />
       </section>
       <BrandAbout />
+      <FixedTop />
     </HomeStyled>
   );
 };

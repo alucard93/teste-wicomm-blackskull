@@ -1,5 +1,7 @@
-import React from "react";
+// estilização
 import { FooterStyled } from "./style";
+
+// componentes
 import { FooterLeftInterative } from "./FooterLeftInterative/FooterLeftInterative";
 import { FooterBottom } from "./FooterBottom/FooterBottom";
 import { FooterRightInterative } from "./FooterRightInterative/FooterRightInterative";

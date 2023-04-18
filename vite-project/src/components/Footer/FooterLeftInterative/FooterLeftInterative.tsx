@@ -1,13 +1,14 @@
-import React from "react";
+// estilização
 import { FooterLeftInterativeStyled } from "./style";
-import brand from "../../../../public/assets/blackskull-logo.svg";
-import facebook from "../../../../public/assets/facebook.svg";
-import instagram from "../../../../public/assets/instagram.svg";
-import youtube from "../../../../public/assets/youtube.svg";
-import twitter from "../../../../public/assets/twitter.svg";
-import tiktok from "../../../../public/assets/tiktok.svg";
-import { Paragraph } from "../../../styles/typography";
+
+// banco de dados
 import { databaseFooter } from "../../../database/database";
+
+// componentes
+import { Paragraph } from "../../../styles/typography";
+
+// img marca
+import brand from "../../../../public/assets/blackskull-logo.svg";
 
 type FooterType = "about" | "norms" | "regulation";
 
@@ -71,7 +72,6 @@ export const FooterLeftInterative = () => {
           <div className="content-brand-icons">
             <img src={brand} alt="logo da marca Black Skull" />
 
-            
             <div className="content-social">
               <div className="content-title-follower">
                 <Paragraph

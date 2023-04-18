@@ -1,6 +1,11 @@
+// reset
+import { GlobalStyle } from "./styles/global";
+
+// tema
 import { ThemeProvider } from "styled-components";
 import { defaultTheme } from "./styles/themes/default";
-import { GlobalStyle } from "./styles/global";
+
+// lib rota
 import { Router } from "./route/Router";
 import { BrowserRouter } from 'react-router-dom'
 

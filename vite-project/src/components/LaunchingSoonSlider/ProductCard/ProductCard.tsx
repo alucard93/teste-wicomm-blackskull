@@ -1,12 +1,20 @@
-import React, { useState } from "react";
+// estilização
 import { ProductCardStyled } from "./style";
 
+// componentes
 import { Paragraph } from "../../../styles/typography";
+import { ProductCardWithOptions } from "../../ProductCardWithOptions/ProductCardWithOptions";
+
+// interface props
+import { IDatabaseProductsProps } from "../../../interfaces/DatabaseInterface";
+
+// hook
+import { useState } from "react";
+
+// icon
 import { AiFillStar } from "react-icons/ai";
 import { BiStar } from "react-icons/bi";
 import { BsCart3 } from "react-icons/bs";
-import { ProductCardWithOptions } from "../../ProductCardWithOptions/ProductCardWithOptions";
-import { IDatabaseProductsProps } from "../../../interfaces/DatabaseInterface";
 
 export const ProductCard = ({ databaseProducts }: IDatabaseProductsProps) => {
   const [display, setDisplay] = useState<number | null>(null);

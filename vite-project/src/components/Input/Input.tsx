@@ -1,7 +1,14 @@
-import { InputHTMLAttributes } from "react";
-import { FieldValues, UseFormRegister } from "react-hook-form";
+// estilização
 import { InputStyled } from "./style";
+
+// componente
 import { Paragraph } from "../../styles/typography";
+
+// tipagem
+import { InputHTMLAttributes } from "react";
+
+// tipagem / lib
+import { FieldValues, UseFormRegister } from "react-hook-form";
 
 export interface IValues {}
 
@@ -34,7 +41,12 @@ export const Input = ({
           defaultValue={defaultValue}
         />
       </div>
-      <Paragraph size={"xs"} color={"orange1"} textTransf={"capitalize"} className="error-message" >
+      <Paragraph
+        size={"xs"}
+        color={"orange1"}
+        textTransf={"capitalize"}
+        className="error-message"
+      >
         {errosMessage}
       </Paragraph>
     </InputStyled>

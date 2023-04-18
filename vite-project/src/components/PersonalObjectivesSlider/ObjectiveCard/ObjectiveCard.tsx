@@ -1,7 +1,12 @@
-import { IDatabaseObjectiveProps } from "../../../interfaces/DatabaseInterface";
-import { Paragraph } from "../../../styles/typography";
-import { ImageViewer } from "./ImageViewerSvg/ImageViewer";
+// estilização
 import { ObjectiveCardStyled } from "./style";
+
+// componente
+import { Paragraph } from "../../../styles/typography";
+import { ImageViewer } from "../../SvgComponents/ImageViewerSvg/ImageViewer";
+
+// interface
+import { IDatabaseObjectiveProps } from "../../../interfaces/DatabaseInterface";
 
 export const ObjectiveCard = ({
   databaseObjective,
@@ -23,7 +28,7 @@ export const ObjectiveCard = ({
                   {objective.title}
                 </Paragraph>
               </div>
-                <ImageViewer className="icon" />
+              <ImageViewer className="icon" />
             </div>
           </div>
         </ObjectiveCardStyled>

@@ -1,7 +1,8 @@
+// hooks
 import { useState } from "react";
-
 import { useEffect } from "react";
 
+// icons
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 
 export const ProductCategory = ({
@@ -38,7 +39,7 @@ export const ProductCategory = ({
         </div>
 
         {/* Button */}
-        <div className="absolute top-14 flex-row justify-between h-0 bg-[red]" >
+        <div className="absolute top-14 flex-row justify-between h-0 bg-[red]">
           <button
             onClick={prev}
             className="rounded shadow bg-[#CACACA] text-[#0B0B0B] hover:bg-[#FFC470]"

@@ -1,6 +1,11 @@
+// estilização
 import { ProductCardWithOptionsStyled } from "./style";
+
+// componente
 import Button from "../Button/Button";
 import { Paragraph } from "../../styles/typography";
+
+// hook
 import { useState } from "react";
 
 export const ProductCardWithOptions = () => {
@@ -11,12 +16,6 @@ export const ProductCardWithOptions = () => {
       setSelectedFlavorIds(selectedFlavorIds.filter((id) => id !== flavorId));
     } else {
       setSelectedFlavorIds([...selectedFlavorIds, flavorId]);
-    }
-  };
-
-  const handleBuyButtonClick = () => {
-    if (selectedFlavorIds.length > 0) {
-      // faz alguma ação com os sabores selecionados
     }
   };
 
@@ -39,6 +38,7 @@ export const ProductCardWithOptions = () => {
           >
             Toffee
           </Button>
+
           <Button
             buttonSize={"sb"}
             variant={selectedFlavorIds.includes(2) ? "black1" : "gray3"}
@@ -46,6 +46,7 @@ export const ProductCardWithOptions = () => {
           >
             Chocolate
           </Button>
+
           <Button
             buttonSize={"sb"}
             variant={selectedFlavorIds.includes(3) ? "black1" : "gray3"}
@@ -53,6 +54,7 @@ export const ProductCardWithOptions = () => {
           >
             Morango
           </Button>
+
           <Button
             buttonSize={"sb"}
             variant={selectedFlavorIds.includes(4) ? "black1" : "gray3"}
@@ -63,7 +65,7 @@ export const ProductCardWithOptions = () => {
         </div>
       </div>
 
-      <Button onClick={handleBuyButtonClick}>Comprar</Button>
+      <Button>Comprar</Button>
     </ProductCardWithOptionsStyled>
   );
 };
