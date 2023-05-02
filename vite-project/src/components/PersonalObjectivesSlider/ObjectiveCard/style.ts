@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
 export const ObjectiveCardStyled = styled.div`
   .container {
@@ -16,9 +16,14 @@ export const ObjectiveCardStyled = styled.div`
     border: 1px solid #000000;
 
     clip-path: polygon(5px 0px, 275px 0px, 275px 340px, 5px 340px);
+
   }
 
   img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
     filter: grayscale(100%);
 
     &:hover {
